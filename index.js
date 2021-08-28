@@ -16,7 +16,9 @@ element.addEventListener('click', function () {
         finalResult = reverseArray(wordArray);
 
     }
-
+    let reverseString = finalResult.join(' ');
+    console.log(reverseString);
+    document.getElementById("reverse-text").innerHTML = reverseString;
     console.log(finalResult)
 });
 
